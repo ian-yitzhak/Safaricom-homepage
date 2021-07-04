@@ -32,3 +32,89 @@ body {
 .topnav-right {
   float: right;
 }
+
+.nav_2 {
+  overflow: hidden;
+  background-color: white;
+
+
+}
+.nav_2 a {
+  float: left;
+  margin: 5px;
+  color: black;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family:raleway
+}
+.nav_2 a:hover {
+  background-color: white;
+  color: green;
+}
+
+.nav_2 a.active {
+  background-color: white;
+  color: black;
+}
+.nav_2 a.active:hover {
+  background-color: white;
+  color: green;
+}
+
+.nav_2-right {
+  float: right;
+}
+.nav_2 input[type=text] {
+
+  border: 1px solid red;
+  border-radius: 12px;
+  padding: 8px 30px;
+  margin: 5px;
+  font-size: 15px;
+  position: relative;
+}
+.nav_2 .image img{
+	width: 30px;
+	height: 30px;
+	position: relative;
+	 padding: 0px 18px;
+	 margin: 0px;
+}
+.nav-right {
+  float: right;
+}
+.nav-right a{
+	padding: 10px 50px 30px 10px;
+	font-size: 30px;
+
+}
+
+.nav-right img{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+
+}
+.content{
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	 flex-direction: row;
+	justify-content: space-between;
+}
+.container{
+	display: grid;
+}
+.container_content{
+	width: 220px;
+	border: 1px solid black;
+
+}
+
+
+
+
+
+
