@@ -108,11 +108,41 @@ body {
 	display: grid;
 }
 .container_content{
-	width: 220px;
+	width: 280px;
 	border: 1px solid black;
+	font-size: 20px;
+	text-align: left;
+	font-family: 'Times New Roman', serif;
 
 }
+.fa-arrow-right{
+	margin-left: 160px;
+	color: black;
+	text-align: right;
 
+}
+.container_content a{
+	text-decoration: none;
+}
+h3{
+	color: green;
+}
+P{
+	font-size: 10px;
+}
+.footer_1{
+	display: flex;
+	justify-content: space-between;
+	background: grey;
+	padding: 5px;
+}
+.footer_content{
+	padding: 5px;
+	
+	margin-left: 0%;
+	margin-right: 0%;
+
+}
 
 
 
