@@ -138,10 +138,19 @@ P{
 }
 .footer_content{
 	padding: 5px;
-	
-	margin-left: 0%;
-	margin-right: 0%;
+	margin: 10px;
 
+}
+
+.footer{
+	display: flex;
+	justify-content: space-between;
+	background: black;
+	padding: 5px;
+	color: white;
+}
+.main_footer_content{
+	display: block;
 }
 
 
