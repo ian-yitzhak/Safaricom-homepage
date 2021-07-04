@@ -77,11 +77,17 @@ body {
 .nav_2 input[type=text] {
 
   border: 1px solid red;
+  color: black;
   border-radius: 12px;
   padding: 8px 30px;
   margin: 5px;
   font-size: 15px;
   position: relative;
+}
+
+.nav_2 input[type=text]:focus {
+
+  color: red;
 }
 .nav_2 .image img{
 	width: 30px;
