@@ -107,12 +107,18 @@ body {
 .container{
 	display: grid;
 }
+
 .container_content{
 	width: 280px;
-	border: 1px solid black;
+	height: 30px;
 	font-size: 20px;
 	text-align: left;
 	font-family: 'Times New Roman', serif;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	border: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+	text-align: center;
+	margin: 20px;
+	padding: 10px;
 
 }
 .fa-arrow-right{
@@ -124,7 +130,7 @@ body {
 .container_content a{
 	text-decoration: none;
 }
-h3{
+#services,#bonga,#tools,#promo,#service,#enter{
 	color: green;
 }
 P{
@@ -132,7 +138,7 @@ P{
 }
 .footer_1{
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	background: grey;
 	padding: 5px;
 }
@@ -144,11 +150,17 @@ P{
 
 .footer{
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	background: black;
-	padding: 5px;
+	
 	color: white;
-	text-align: center;
+	
+}
+h4{
+	padding: 15px;
+	margin: 10px;
+	font-size: 13px;
+
 }
 .main_footer_content{
 	display: block;
