@@ -3,9 +3,14 @@ body {
   font-family: safaricom_montserrat,sans-serif;
 }
 
+
 .topnav {
   overflow: hidden;
-  background-color: #03C03C;
+  width: 100%;
+  background-color: #39B54A;
+   
+  
+ 
 }
 .topnav a {
   float: left;
@@ -36,6 +41,9 @@ body {
 .nav_2 {
   overflow: hidden;
   background-color: white;
+  
+ 
+
 
 
 }
@@ -141,7 +149,7 @@ P{
 	justify-content: center;
 	background: grey;
 	padding: 5px;
-	color: white;
+	color: #f6f6f6;
 	font-family: safaricom_montserrat,sans-serif;
 }
 .footer_content{
@@ -153,7 +161,7 @@ P{
 .footer{
 	display: flex;
 	justify-content: center;
-	background: black;
+	background: #333333;
 	
 	color: white;
 	
